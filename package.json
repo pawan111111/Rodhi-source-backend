@@ -11,7 +11,12 @@
   "author": "Pradeep Adhikari",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "express": "^4.18.2",
-    "mongoose": "^5.13.5"
+    "jsonwebtoken": "^9.0.0",
+    "mailgen": "^2.0.27",
+    "mongoose": "^5.13.5",
+    "nodemailer": "^6.9.1",
+    "otp-generator": "^4.0.1"
   }
 }

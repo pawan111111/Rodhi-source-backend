@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 
 import Data from "./data.js";
 import tiktok from "./dbModels.js";
+import router from './router/route.js'
 
 //app config
 const app = express();
@@ -37,6 +38,9 @@ app.post('/v2/posts', (req, res) => {
         }
     })
 })
+
+//api routes
+app.use('/api', router)
 
 //listen
 app.listen(port, () => console.log(`listening on localhost: ${port}`));
