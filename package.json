@@ -17,6 +17,8 @@
     "mailgen": "^2.0.27",
     "mongoose": "^5.13.5",
     "nodemailer": "^6.9.1",
-    "otp-generator": "^4.0.1"
+    "otp-generator": "^4.0.1",
+    "shortid": "^2.2.16",
+    "slugify": "^1.6.5"
   }
 }

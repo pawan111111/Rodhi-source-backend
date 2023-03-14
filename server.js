@@ -1,9 +1,12 @@
 import express from "express";
 import mongoose from "mongoose";
-
 import Data from "./data.js";
 import tiktok from "./dbModels.js";
 import router from './router/route.js'
+import adminRoutes from './router/admin/auth.js';
+import categoryRoutes from "./router/category.js";
+
+
 
 //app config
 const app = express();
@@ -41,6 +44,8 @@ app.post('/v2/posts', (req, res) => {
 
 //api routes
 app.use('/api', router)
+app.use('/api', adminRoutes)
+app.use('/api', categoryRoutes)
 
 //listen
 app.listen(port, () => console.log(`listening on localhost: ${port}`));
