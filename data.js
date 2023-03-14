@@ -7,7 +7,7 @@ const Data = [
       hoverImg: "https://res.cloudinary.com/tuddrom-nepal/image/upload/v1678790371/Yantram%20Nepal/allEarbuds/headset-package_vujg9j.jpg",
       buttonhoverImg: "https://res.cloudinary.com/tuddrom-nepal/image/upload/v1678790439/Yantram%20Nepal/allEarbuds/hybrid-enc-tws-headset_widbsk.jpg",
       title: "acefast t2",
-      productName: "earbud",
+      productName: "earbud acefast",
       price: "NRS 749",
     },
     {
