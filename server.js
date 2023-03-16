@@ -7,6 +7,7 @@ import adminRoutes from './router/admin/auth.js';
 import categoryRoutes from "./router/category.js";
 import allSounds from "./Homedata/allSounds.js"
 import allEarbuds from "./Homedata/allEarbuds.js"
+import allHeadphone from "./Homedata/allHeadphone.js"
 import cors from "cors";
 
 
@@ -34,6 +35,7 @@ app.get("/", (req, res) => res.status(200).send("hello world"));
 app.get('/v1/posts', (req, res) => res.status(200).send(Data))
 app.get('/v1/allsounds', (req, res) => res.status(200).send(allSounds))
 app.get('/v1/earbuds', (req, res) => res.status(200).send(allEarbuds))
+app.get('/v1/headphone', (req, res) => res.status(200).send(allHeadphone))
 
 app.post('/v2/posts', (req, res) => {
     const dbVideos = req.body
