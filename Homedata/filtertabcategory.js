@@ -1,4 +1,4 @@
-export const category = [
+ const filterCategory = [
     {
       id: 1,
       name: "Sound",
@@ -16,4 +16,6 @@ export const category = [
       name: "LifeStyle",
     },
     
+    
   ];
+  export default filterCategory

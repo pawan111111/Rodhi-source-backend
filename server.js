@@ -9,6 +9,7 @@ import allSounds from "./Homedata/allSounds.js"
 import allEarbuds from "./Homedata/allEarbuds.js"
 import allHeadphone from "./Homedata/allHeadphone.js"
 import soundCategory from "./Homedata/soundCategory.js";
+import filterCategory from "./Homedata/filtertabcategory.js";
 import cors from "cors";
 
 
@@ -38,6 +39,7 @@ app.get('/v1/allsounds', (req, res) => res.status(200).send(allSounds))
 app.get('/v1/earbuds', (req, res) => res.status(200).send(allEarbuds))
 app.get('/v1/headphone', (req, res) => res.status(200).send(allHeadphone))
 app.get('/v1/soundCategory', (req, res) => res.status(200).send(soundCategory))
+app.get('/v1/filtercategory', (req, res) => res.status(200).send(filterCategory))
 
 app.post('/v2/posts', (req, res) => {
     const dbVideos = req.body
