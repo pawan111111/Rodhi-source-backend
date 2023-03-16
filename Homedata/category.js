@@ -15,4 +15,5 @@ export const category = [
       id: 4,
       name: "LifeStyle",
     },
+    
   ];
