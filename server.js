@@ -6,11 +6,14 @@ import router from './router/route.js'
 import adminRoutes from './router/admin/auth.js';
 import categoryRoutes from "./router/category.js";
 import allEarbuds from "./Homedata/allEarbuds .js"
+import cors from "cors";
 
 
 //app config
 const app = express();
-const port = 9000;
+app.use(cors());
+
+const port = process.env.PORT || 9000;
 
 //middlewares
 app.use(express.json());
