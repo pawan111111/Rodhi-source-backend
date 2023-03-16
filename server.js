@@ -33,7 +33,7 @@ mongoose.connect(connection_url, {
 app.get("/", (req, res) => res.status(200).send("hello world"));
 app.get('/v1/posts', (req, res) => res.status(200).send(Data))
 app.get('/v1/allsounds', (req, res) => res.status(200).send(allSounds))
-app.get('/v1/allsounds', (req, res) => res.status(200).send(allEarbuds))
+app.get('/v1/earbuds', (req, res) => res.status(200).send(allEarbuds))
 
 app.post('/v2/posts', (req, res) => {
     const dbVideos = req.body
