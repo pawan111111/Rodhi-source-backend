@@ -1,6 +1,6 @@
 
 
-const allEarbuds = [
+const allSounds = [
     {
       id: 1,
       Img: "https://res.cloudinary.com/tuddrom-nepal/image/upload/v1678790559/Yantram%20Nepal/allEarbuds/bluetooth-headphones-package_cfwrzp.jpg",
@@ -48,4 +48,4 @@ const allEarbuds = [
     },
   ];
   
-  export default allEarbuds
+  export default allSounds
