@@ -1,6 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import Data from "./data.js";
+import OemData from "./Data/oem.js";
 import tiktok from "./dbModels.js";
 import router from './router/route.js'
 // import adminRoutes from './router/admin/auth.js';
@@ -28,6 +29,7 @@ mongoose.connect(connection_url, {
 //api endpoints
 app.get("/", (req, res) => res.status(200).send("hello world"));
 app.get('/v1/posts', (req, res) => res.status(200).send(Data))
+app.get('/v1/oem', (req, res) => res.status(200).send(OemData))
 
 
 app.post('/v2/posts', (req, res) => {
