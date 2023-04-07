@@ -1,33 +1,22 @@
 
 
 const Data = [
-    {
-      id: 1,
-      Img: "https://res.cloudinary.com/tuddrom-nepal/image/upload/v1678790270/Yantram%20Nepal/allEarbuds/headset-earbuds-transparent_npbbd4.jpg",
-      hoverImg: "https://res.cloudinary.com/tuddrom-nepal/image/upload/v1678790371/Yantram%20Nepal/allEarbuds/headset-package_vujg9j.jpg",
-      buttonhoverImg: "https://res.cloudinary.com/tuddrom-nepal/image/upload/v1678790439/Yantram%20Nepal/allEarbuds/hybrid-enc-tws-headset_widbsk.jpg",
-      title: "acefast t2",
-      productName: "earbud acefast",
-      price: "NRS 749",
-    },
-    {
-      id: 2,
-      Img: "https://res.cloudinary.com/tuddrom-nepal/image/upload/v1678790496/Yantram%20Nepal/allEarbuds/bluetooth-headphones_d4iugr.jpg",
-      hoverImg: "https://res.cloudinary.com/tuddrom-nepal/image/upload/v1678790559/Yantram%20Nepal/allEarbuds/bluetooth-headphones-package_cfwrzp.jpg",
-      buttonhoverImg: "https://res.cloudinary.com/tuddrom-nepal/image/upload/v1678790439/Yantram%20Nepal/allEarbuds/hybrid-enc-tws-headset_widbsk.jpg",
-      title: "acefast h1",
-      productName: "Headphone",
-      price: "NRS 749",
-    },
-    {
-      id: 3,
-      Img: "https://res.cloudinary.com/tuddrom-nepal/image/upload/v1678790559/Yantram%20Nepal/allEarbuds/bluetooth-headphones-package_cfwrzp.jpg",
-      hoverImg: "https://res.cloudinary.com/tuddrom-nepal/image/upload/v1678790559/Yantram%20Nepal/allEarbuds/bluetooth-headphones-package_cfwrzp.jpg",
-      buttonhoverImg: "https://res.cloudinary.com/tuddrom-nepal/image/upload/v1678790439/Yantram%20Nepal/allEarbuds/hybrid-enc-tws-headset_widbsk.jpg",
-      title: "acefast h1",
-      productName: "Headphone",
-      price: "NRS 989",
-    },
+  {
+    id: 1,
+    Img: "https://rodhisources.com/productsources.png",
+    firsttitle: "Product Sourcing",
+    paragraph: "Product sourcing is the process of purchasing the best products to sell. The products are often bought from reliable retail suppliers and manufacturers at a reasonable price. The method includes researching,calculating the product’s price and acquisition costs, vettingreputable suppliers, and negotiating to get the best deals.Ultimately, your product sourcing strategy should lead you to findquality products at prices that allow for significant profit margins.So here we are with over a decade of experience in the sourcing arena,our knowledge and skills are sound. We believe we can help you findthe right supplier even for the rarest of goods. Once you submit you inquiry, our specialist research team in China, which has beensourcing for over ten years, will find the best products from a propermanufacturer for you through our supply channel and notify you within one business day.",
+    secondtitle: "What do you get with our Sourcing service?",
+    li1: "Product and market ideas and strategies",
+    li2: "Import Everything You Demand",
+    li3: "Product Sample",
+    li4: "Sample of products",
+    li5: "Production Follow-Up ",
+    li6: "Competitive Price of products",
+    li7: "Factory negotiation on your behalf",
+    li8: "Best factory pricing with no hidden charges",
+
+  },
     
     
 ]

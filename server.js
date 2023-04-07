@@ -3,13 +3,8 @@ import mongoose from "mongoose";
 import Data from "./data.js";
 import tiktok from "./dbModels.js";
 import router from './router/route.js'
-import adminRoutes from './router/admin/auth.js';
-import categoryRoutes from "./router/category.js";
-import allSounds from "./Homedata/allSounds.js"
-import allEarbuds from "./Homedata/allEarbuds.js"
-import allHeadphone from "./Homedata/allHeadphone.js"
-import soundCategory from "./Homedata/soundCategory.js";
-import filterCategory from "./Homedata/filtertabcategory.js";
+// import adminRoutes from './router/admin/auth.js';
+// import categoryRoutes from "./router/category.js";
 import cors from "cors";
 
 
@@ -27,19 +22,13 @@ const connection_url= 'mongodb+srv://yantramnepal:nuG62AUhWPxQ8VCX@cluster1.rg6r
 mongoose.connect(connection_url, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-
-  
     
 })
 
 //api endpoints
 app.get("/", (req, res) => res.status(200).send("hello world"));
 app.get('/v1/posts', (req, res) => res.status(200).send(Data))
-app.get('/v1/allsounds', (req, res) => res.status(200).send(allSounds))
-app.get('/v1/earbuds', (req, res) => res.status(200).send(allEarbuds))
-app.get('/v1/headphone', (req, res) => res.status(200).send(allHeadphone))
-app.get('/v1/soundCategory', (req, res) => res.status(200).send(soundCategory))
-app.get('/v1/filtercategory', (req, res) => res.status(200).send(filterCategory))
+
 
 app.post('/v2/posts', (req, res) => {
     const dbVideos = req.body
@@ -55,8 +44,8 @@ app.post('/v2/posts', (req, res) => {
 
 //api routes
 app.use('/api', router)
-app.use('/api', adminRoutes)
-app.use('/api', categoryRoutes)
+// app.use('/api', adminRoutes)
+// app.use('/api', categoryRoutes)
 
 //listen
 app.listen(port, () => console.log(`listening on localhost: ${port}`));
